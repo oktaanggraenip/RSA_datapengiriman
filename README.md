@@ -1,21 +1,19 @@
 # RSA_datapengiriman
 
-Instalasi
+## Instalasi
 
     Pastikan Anda sudah memiliki Python 3.x dan pip terinstall di komputer Anda, tentunya juga terdapat dalam PATH Environment Variables.
     
     Pastikan juga Anda sudah menginstall Flask, library yang dibutuhkan program ini, dengan menjalankan perintah berikut pada terminal atau command prompt:
 
-   ```python
-   ```pip install flask```
+   ```pip install flask
 
     Setelah itu, unduh file program python app.py dan simpan pada direktori yang diinginkan.
 
-Penggunaan
+## Penggunaan
 
     Buka terminal atau command prompt, masuk ke dalam direktori tempat app.py disimpan, kemudian jalankan perintah berikut:
     
-    ```python
     ```python app.py
 
     Buka browser Anda dan akses alamat http://localhost:5000/.
