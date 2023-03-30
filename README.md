@@ -14,7 +14,7 @@ Penggunaan
 
     Buka terminal atau command prompt, masuk ke dalam direktori tempat app.py disimpan, kemudian jalankan perintah berikut:
     
-    ```python app.py```
+    `python app.py`
 
     Buka browser Anda dan akses alamat http://localhost:5000/.
 
