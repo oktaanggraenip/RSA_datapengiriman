@@ -1,29 +1,15 @@
 # RSA_datapengiriman
 
-Instalasi
+Requirements
 
-    Pastikan Anda sudah memiliki Python 3.x dan pip terinstall di komputer Anda, tentunya juga terdapat dalam PATH Environment Variables.
-    
-    Pastikan juga Anda sudah menginstall Flask, library yang dibutuhkan program ini, dengan menjalankan perintah berikut pada terminal atau command prompt:
+    1. Python 3
+    2. Flask
 
-   ```pip install flask```
+Usage
 
-    Setelah itu, unduh file program python app.py dan simpan pada direktori yang diinginkan.
-
-Penggunaan
-
-    Buka terminal atau command prompt, masuk ke dalam direktori tempat app.py disimpan, kemudian jalankan perintah berikut:
-    
-     `python app.py`
-
-    Buka browser Anda dan akses alamat http://localhost:5000/.
-
-    Isi teks yang ingin dienkripsi pada form yang tersedia dan klik tombol "Enkripsi".
-
-    Program akan menampilkan hasil enkripsi pada halaman yang sama.
-
-    Untuk melakukan dekripsi, masukkan teks yang telah dienkripsi pada form yang tersedia dan klik tombol "Dekripsi".
-
-    Program akan menampilkan hasil dekripsi pada halaman yang sama.
-
-Catatan: Program ini masih menggunakan kunci statis. Jika ingin menghasilkan kunci baru, ubahlah fungsi generate_key_pair() pada program.
+    Clone this repository.
+    Install Flask by running `pip install flask`.
+    Run the program by executing python rsa.py.
+    Open your web browser and go to http://localhost:5000.
+    Type your message in the input field and click "Encrypt/Decrypt".
+    The program will generate a key pair, encrypt your message, and display the ciphertext and decrypted message.
