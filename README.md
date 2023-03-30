@@ -2,8 +2,8 @@
 
 Instalasi
 
-    Pastikan Anda sudah memiliki Python 3.x terinstall di komputer Anda.
-
+    Pastikan Anda sudah memiliki Python 3.x dan pip terinstall di komputer Anda, tentunya juga terdapat dalam PATH Environment Variables.
+    
     Pastikan juga Anda sudah menginstall Flask, library yang dibutuhkan program ini, dengan menjalankan perintah berikut pada terminal atau command prompt:
 
    ```pip install flask```
@@ -13,7 +13,7 @@ Instalasi
 Penggunaan
 
     Buka terminal atau command prompt, masuk ke dalam direktori tempat app.py disimpan, kemudian jalankan perintah berikut:
-
+    
     ```python app.py```
 
     Buka browser Anda dan akses alamat http://localhost:5000/.
