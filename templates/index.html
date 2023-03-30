@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1>Data Pengiriman Barang</h1>
+</head>
+<body>
+	<form method="POST">
+		<label for="NamaPenerima">Nama Penerima:</label>
+		<input type="text" name="NamaPenerima" id="NamaPenerima"><br><br>
+
+		<label for="AlamatTujuan">Alamat Tujuan:</label>
+		<input type="text" name="AlamatTujuan" id="AlamatTujuan"><br><br>
+
+		<label for="TelpPenerima">No Telepon Penerima:</label>
+		<input type="text" name="TelpPenerima" id="TelpPenerima"><br><br>
+
+    <label for="NamaPengirim">Nama Pengirim:</label>
+		<input type="text" name="NamaPengirim" id="NamaPengirim"><br><br>
+
+		<label for="AlamatAsal">Alamat Asal:</label>
+		<input type="text" name="AlamatAsal" id="AlamatAsal"><br><br>
+
+		<label for="TelpPengirim">No Telepon Pengirim:</label>
+		<input type="text" name="TelpPengirim" id="TelpPengirim"><br><br>
+
+		<input type="submit" value="Encrypt/Decrypt">
+
+    <h2>RSA Encryption/Decryption</h1>
+	</form>
+
+	{% if data %}
+		<hr>
+		{% for key in data %}
+			<p><strong>{{ key }}:</strong></p>
+			<p>Plaintext: {{ data[key]['plaintext'] }}</p>
+			<p>Ciphertext: {{ data[key]['ciphertext'] }}</p>
+			<p>Decrypted: {{ data[key]['decrypted'] }}</p>
+			<hr>
+		{% endfor %}
+	{% endif %}
+</body>
+</html>
+
